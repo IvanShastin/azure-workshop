@@ -56,13 +56,13 @@ The release pipeline will fail but we are going to fix it on the next step.
 By default, Azure DevOps is unable to find out the name of your Chart, on the releases pipeline, update
 the value using the explorer to the zip file that the browser shows (helm-0.1.0.zip by default)
 
-## Customize build pipelines to build the three Docker images
-
-Now it is time to adjust the build pipelines to build not one but the three Docker images that the project is composed of.
-
 # Exercises
 
 Now it is time to explore Azure DevOps. Ask as many questions as you need and make sure that you understand what you are doing.
+
+## Customize build pipelines to build the three Docker images
+
+Now it is time to adjust the build pipelines to build not one but the three Docker images that the project is composed of.
 
 ## Customize the release pipeline to use the most recently built images
 
